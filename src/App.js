@@ -1,4 +1,5 @@
 import CalendarComponent from "./components/Calendar";
+import Favorites from "./components/Favorites";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <h1>Hello</h1>
       <CalendarComponent />
+      <Favorites />
     </div>
   );
 }
